@@ -41,6 +41,8 @@ struct OnboardingScreen: View {
                 }
                 Spacer()
             }
+            .navigationBarTitle("")
+            .navigationBarBackButtonHidden(true)
             .navigationBarHidden(true)
         }
     }
